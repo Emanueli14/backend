@@ -1,0 +1,38 @@
+### testar get preodmerc 
+GET http://localhost:3000/status
+
+
+
+
+### listar especifica 
+GET http://localhost:3000/produto/1
+
+
+
+
+### criar um novo produto 
+POST http://localhost:3000/produtonovo
+Content-Type: application/json
+
+{
+
+    "nome": "banana",
+    "preco" "5.99"
+}
+
+
+
+
+### Atualiza o produto 3
+PUT http://localhost:3000/atualizar/3
+Content-Type: application/json
+
+{
+"nome": "laranja",
+"preco": 3.50
+}
+
+
+
+### Deleta produto
+DELETE http://localhost:3000/excluir/3
